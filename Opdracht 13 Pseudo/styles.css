@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    font-size: 30px;
+}
+/* nav bar css*/
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    padding: 20px 0px 20px 0px;
+    background-color: rgb(3, 3, 105);
+}
+ul.nav li a{
+    color: white;
+    margin-left:30px; 
+    padding: 30px;
+}
+ul.nav li.home a{
+    margin-left: 0px;
+    padding: 0px;
+    text-align: left;
+}
+ul.nav li.currentpage a{
+    padding: 20px;
+    background-color: rgb(117, 117, 163);
+    
+}
+ul.nav li.currentpage a:hover{
+    color: tomato;
+    background-color: thistle;
+}
+ul.nav input.text:focus{
+    border:10px dotted aqua;
+}
+input{
+    margin-left: 20px;
+}
+
+/* link css*/
+a:hover{
+    color: cornflowerblue;
+}
+li.link1 a:hover{
+    color: rgb(190, 190, 245);
+    font-weight: bold;
+}
+li.link2 a:active{
+    color: crimson;
+    font-style: italic;
+}
+li.link3 a:visited{
+    color: yellow;
+}
+input{
+    height: 30px;
+}
+input:focus{
+    color: rgb(0, 221, 37);
+    font-size: 20px;
+}
